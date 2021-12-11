@@ -25,11 +25,11 @@ MainWindow::MainWindow(QWidget *parent)
     q1.ajouter(Reponse("1+4", true));
     q1.ajouter(Reponse("25/5", true));
 
-    Question q2("Qui est le plus beau?");
-    q2.ajouter(Reponse("Youssef"));
-    q2.ajouter(Reponse("Bakouny", true));
-    q2.ajouter(Reponse("Flavia"));
-    q2.ajouter(Reponse("Rita"));
+    Question q2("Que vaut x dans 5x=-7");
+    q2.ajouter(Reponse("7/5"));
+    q2.ajouter(Reponse("-7/5", true));
+    q2.ajouter(Reponse("5/7"));
+    q2.ajouter(Reponse("-7.5"));
 
     questions.push_back(q0);
     questions.push_back(q1);
